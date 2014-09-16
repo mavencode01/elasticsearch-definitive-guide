@@ -32,7 +32,7 @@ information:
 GET /my_index/_analyze?field=title <1>
 I'm not happy about the foxes
 --------------------------------------------------
-<1> Emits tokens: `i'm`, `happi`, `about`, `fox`
+<1> Emits tokens: `i'm`, `happy`, `about`, `fox`
 
 We can't tell if the document mentions one `fox` or many  `foxes`; the word
 `not` is a stopword and is removed, so we can't tell whether the document is
